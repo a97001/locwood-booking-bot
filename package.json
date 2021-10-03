@@ -1,0 +1,22 @@
+{
+  "name": "locwood-booking-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a97001/locwood-booking-bot.git"
+  },
+  "author": "Kelvin Au",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a97001/locwood-booking-bot/issues"
+  },
+  "homepage": "https://github.com/a97001/locwood-booking-bot#readme",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  }
+}
