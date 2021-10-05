@@ -1,9 +1,12 @@
 const puppeteer = require('puppeteer');
+const schedule = require('node-schedule');
 
-const DATE_CHOICE = '2021-10-08';
-const TIMESLOT_CHOICES = [5, 6];
-const USERNAME = '';
-const PASSWORD = '';
+require('dotenv').config()
+
+const DATE_CHOICE = process.env.DATE_CHOICE;
+const TIMESLOT_CHOICES = process.env.TIMESLOT_CHOICES.split(',');
+const USERNAME = process.env.LOGIN_USERNAME;
+const PASSWORD = process.env.LOGIN_PASSWORD;
 
 const EXPANED_TIMESLOT_CHOICES = [];
 for (const c of TIMESLOT_CHOICES) {
@@ -95,11 +98,16 @@ async function main() {
 
   await page.setViewport({ width: 924, height: 799 })
 
-  await login(page)
+  console.time('login');
+  await login(page);
+  console.timeEnd('login');
 
+  console.time('goBookingPage');
   await goBookingPage(page);
   await page.waitForNavigation()
+  console.timeEnd('goBookingPage');
 
+  console.time('book');
   const dateSelect = await page.waitForSelector('#SelectedDate');
   await dateSelect.select(DATE_CHOICE);
 
@@ -115,12 +123,17 @@ async function main() {
     await nextBtn.click();
 
     const confirmBtn = await page.waitForSelector('#cmd_confirm');
-    // await confirmBtn.click();---
+    await confirmBtn.click();
     console.log(`Booked! ${DATE_CHOICE} ${EXPANED_TIMESLOT_CHOICES[selectedIdx]}`);
   }
-
+  console.timeEnd('book');
   // await browser.close()
+  
 }
 
-main();
+// main();
 
+const date = new Date(process.env.EXEC_SCHEDULE);
+console.log(date.toString());
+
+schedule.scheduleJob(date, async () => await main());

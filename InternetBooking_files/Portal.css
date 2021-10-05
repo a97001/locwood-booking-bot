@@ -1,0 +1,547 @@
+/* ================================
+    CSS STYLES FOR eLiving PORTAL 
+    v1.0, 11/2001
+   ================================
+*/   
+
+
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+    background-color: darkblue;
+}
+
+/* background color for the content part of the pages */
+Body
+{
+    background-color: white;
+}
+
+
+/* PAGE BANNER */
+/* NOTE: Site Title, Site Links and Tabs are rendered by MobilePortalBanner.ascx
+/* style for the text of the site title */
+.SiteTitle {
+    font-family: Verdana Bold, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#cccc99
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+    background-color: white;
+    border-color: white;
+}
+
+/* background/border colors for the unselected tabs */
+.OtherTabsBg {
+    background-color: dimgray;
+    border-color: black;
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+    color:DarkRed;
+    font-weight: bold
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+    color:gainsboro;
+    text-decoration:none;
+    font-weight: bold
+}
+
+/* hyperlink styles of the unselected tabs */
+A.OtherTabs:link    {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.OtherTabs:visited {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.OtherTabs:active  {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.OtherTabs:hover   {
+    text-decoration:    underline;
+    color:white;
+}
+    
+/* text style for the site links (at extreme top-right of header) */
+.SiteLink {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold
+}   
+
+/* hyperlink style for the site links */
+A.SiteLink:link {
+    text-decoration:    none;
+    color:white;
+}
+
+A.SiteLink:visited  {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.SiteLink:active   {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.SiteLink:hover    {
+    text-decoration:    underline;
+    color:white;
+}
+
+/* style for separator between site links */
+.Accent
+{
+    color: red;
+    font-weight:    bold;
+}
+
+
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */    
+.Message    {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-size: 11px;
+    background-color: #eeeeee
+}   
+
+/* style of item titles by Announcements and events */
+.ItemTitle    {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: darkred;
+}
+
+
+/* GENERAL */
+/* style for module titles */
+.Head
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: mediumblue;
+	font-family: Arial;
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: darkblue;
+	font-family: Arial;
+	background-color: lightsteelblue;
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: black;
+}
+
+/* text style used for most text rendered by modules */
+.LinkButtonLabel
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: darkcyan;
+	font-family: Arial;
+}
+
+.DataLabel
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: darkblue;
+	font-family: Arial;
+}
+
+.TitleLabel
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+.TitleLabel_B
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+.TitleLabel_Big
+{
+	font-weight: normal;
+	font-size: 13px;
+	color: black;
+	font-family: Arial;
+}
+
+.TitleLabel_Big_B
+{
+	text-decoration:    underline;
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	font-family: Arial;
+}
+
+.TitleLabel_Small
+{
+	font-weight: normal;
+	font-size: 9px;
+	color: black;
+	font-family: Arial;
+}
+
+.TitleLabel_Blue
+{
+	font-weight: bold;
+	font-size: 11px;
+	color:darkblue;
+	font-family: Arial;
+}
+
+.TitleLabel_Red
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: red;
+	font-family: Arial;
+}
+
+/* Receipt Layout Font */
+.ReceiptLabel
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: @²Ó©úÅé;
+}
+
+/* DropDownList */
+.DropDownListLabel
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+/* DataGridStyle */
+.GridHeader
+{
+	font-weight: bold;
+	font-size: 11px;
+	background-color: lightsteelblue;
+	color: darkblue;
+	font-family: Arial;
+}
+
+.GridItem
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+.GridPage
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: darkblue;
+	font-family: Arial;
+	background-color: whitesmoke;
+}
+
+.GridSelected
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+	background-color: #ffff66;
+}
+
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	height:20px;
+	font-family: Arial;
+}
+
+.NormalTextArea
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+.NormalRed
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: red
+}
+
+.NormalBold
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold
+}
+
+.NormalSmall
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButtonLabel
+{
+	font-weight: normal;
+	font-size: 11px;
+	font-family: Arial;
+	height:25px;
+	width:90px;
+	
+}
+    
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+    text-decoration:    underline;
+    color: darkred;
+}
+
+A.CommandButton:visited  {
+    text-decoration:    underline;
+    color: darkred;
+}
+
+A.CommandButton:active   {
+    text-decoration:    underline;
+    color: darkred;
+}
+
+A.CommandButton:hover    {
+    text-decoration:    underline;
+    color: red;
+}
+    
+
+
+
+/* GENERIC */
+H1  {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #666644;
+}
+
+H2  {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #666644;
+}
+
+H3  {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  12px;
+    font-weight:    normal;
+    color: darkred;
+}
+
+H4
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: mediumblue;
+	font-family: Arial;
+}
+
+H5, DT
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+H6
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+TFOOT, THEAD    {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  12px;
+    color: darkred;
+}
+
+TH  {
+    vertical-align: baseline;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:  12px;
+    font-weight:    bold;
+    color: darkred;
+}
+
+A:link  {
+    text-decoration:    none;
+    color:  darkred;
+}
+
+A:visited   {
+    text-decoration:    none;
+    color:  darkred;
+}
+
+A:active    {
+    text-decoration:    none;
+    color:  darkred;
+}
+
+A:hover {
+    text-decoration:    underline;
+    color:  red;
+}
+
+SMALL   {
+    font-size:  8px;
+}
+
+BIG {
+    font-size:  14px;
+}
+
+BLOCKQUOTE, PRE {
+    font-family:    Lucida Console, monospace;
+}
+
+
+UL LI   {
+    list-style-type:    square ;
+}
+
+UL LI LI    {
+    list-style-type:    disc;
+}
+
+UL LI LI LI {
+    list-style-type:    circle;
+}
+
+OL LI   {
+    list-style-type:    decimal;
+}
+
+OL OL LI    {
+    list-style-type:    lower-alpha;
+}
+
+OL OL OL LI {
+    list-style-type:    lower-roman;
+}
+
+HR {
+    color: dimgrey;
+    height:1pt;
+    text-align:left
+}
+
+.CName_BOP
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	font-family: Arial;
+}
+
+.EName_BOP
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: black;
+	font-family: Arial;
+}
+
+.TitleLabel_b_Large_BOP
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	font-family: Arial;
+}
+
+.Head_BOP
+{
+	font-weight: bold;
+	font-size: 25px;
+	color: mediumblue;
+	font-family: Arial;
+}
+
+.Detail_BOP
+{
+	font-weight: normal;
+	font-size: 20px;
+	color: black;
+	font-family: Arial;
+}
+
+.Detail_s_BOP
+{
+	font-weight: normal;
+	font-size: 15px;
+	color: black;
+	font-family: Arial;
+}
+
+.Detail_b_BOP
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	font-family: Arial;
+}

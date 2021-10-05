@@ -1,0 +1,214 @@
+.body14pt {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	font-size: 14pt;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.body12pt {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	font-size: 12pt;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.body11pt {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	font-size: 11pt;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.body10pt {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	font-size: 10pt;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.body9pt {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	font-size: 9pt;
+	line-height: normal;
+	font-weight: normal;
+}
+
+.body8pt {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	font-size: 8pt;
+	line-height: normal;
+	font-weight: normal;
+}
+
+.body7pt {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	font-size: 7pt;
+	line-height: normal;
+	font-weight: normal;
+}
+
+a:link {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #0000FF;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #0000FF;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #0000FF;
+	text-decoration: none;
+}
+
+img.photo:hover { left: 1px; POSITION: relative; TOP: 1px }
+
+a.photo:hover { left: 1px; POSITION: relative; TOP: 1px }
+
+a.type1:link { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	text-align:center;
+	}
+
+a.type1:visited { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	}
+
+a.type1:hover { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	background-color: #c6f8cb;
+}
+
+a.type2:link { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	text-align:center;
+	}
+
+a.type2:visited { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	}
+
+a.type2:hover { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	background-color: #FFFBD2;
+}
+
+a.type3:link { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	text-align:center;
+}
+
+a.type3:visited { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+}
+
+a.type3:hover { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #3A4752;
+	text-decoration: none; 
+	background-color: #c6f8cb;
+}
+
+a.fac:link { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #000000;
+	text-decoration: none; 
+	}
+
+a.fac:visited { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #000000;
+	text-decoration: none; 
+	}
+
+a.fac:hover { 
+	font-family: "Taipei", "Arial", "Helvetica", "sans-serif";
+	color: #000000;
+	text-decoration: none; 
+	}
+
+
+.date { font-family: "Taipei", "Arial", "Helvetica", "sans-serif"; text-decoration: none; font-size: 9pt;  line-height: normal}
+
+.txtBox{
+    border-top: 1px solid #ACA899;
+    border-bottom: 1px solid #F1EFE2;
+    border-left: 1px solid #ACA899;
+    border-right: 1px solid #F1EFE2;
+    background-color: #FFFFFF;
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 12px;    
+    color: #4D536B;   
+    text-decoration: none;
+	background-image : url(images/txtbox_sh.gif);
+}
+
+.txtBox2{
+    border-top: 1px solid #ACA899;
+    border-bottom: 1px solid #F1EFE2;
+    border-left: 1px solid #ACA899;
+    border-right: 1px solid #F1EFE2;
+    background-color: #FFFFFF;
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 12px;    
+    color: #4D536B;   
+    text-decoration: none;
+	background-image : url(images/txtbox_sh2.gif);
+}
+
+.Head
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: mediumblue;
+	font-family: Arial;
+}
+.txtStaffCName
+{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 新細明體;
+}
+.txtStaffCTitle
+{
+	font-weight:bold;
+	font-size: 12px;
+	font-family: 新細明體;
+}
+.txtStaffEName
+{
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Arial;
+}
+.txtStaffETitle
+{
+	font-weight:normal;
+	font-size: 10px;
+	font-family: Arial;
+}
